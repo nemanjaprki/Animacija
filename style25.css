@@ -1,0 +1,108 @@
+body { 
+    background: #050210; 
+     }  
+
+      
+
+.first {    
+    position: relative; 
+    top: 150px;  
+    left: 500px;
+    background: linear-gradient( #fb5dad 0%, #55fb9f 50%, #b97aff 100%);
+    width: 500px; 
+    height: 500px; 
+    border-radius: 100%;    
+    animation: my-animation;
+    animation-iteration-count: infinite;
+    animation-duration: 10s; 
+    animation-timing-function: cubic-bezier(0.96, 0.98, 0.96, 0.99);
+    filter: blur(75px);
+     
+}  
+
+
+
+
+#wrapeer { 
+    position: absolute; 
+    top: 172px;  
+    left: 522px;
+    background: linear-gradient( #fb5dad 0%, #55fb9f 50%, #b97aff 100%);
+    width: 400px; 
+    height: 400px;   
+    padding: 35px; 
+    border-radius: 100%;     
+    animation: my-animation1;
+    animation-iteration-count: infinite;
+    animation-duration: 10s; 
+    animation-timing-function: cubic-bezier(0.96, 0.98, 0.96, 0.99);
+
+}
+
+
+
+
+
+ @keyframes my-animation { 
+      
+    100% { 
+        transform: translatex(0px) rotate(360deg);  
+        width: 500px; 
+        height: 500px; 
+    }  
+}  
+@keyframes my-animation1 { 
+      
+    100% { 
+        transform: translatex(0px) rotate(360deg);  
+        width: 400px; 
+        height: 400px; }
+ 
+
+    } 
+    #wrapeer3 {  
+        background: #050210;
+        position: absolute;  
+        top: 205px;  
+        left: 555px; 
+        width: 405px; 
+        height: 405px; 
+        border-radius: 100%; 
+
+
+    }
+     
+
+ 
+#wrapeer2 { 
+     background:  rgba(72,61,139, 0.1);
+     position: absolute; 
+     top: 400px;  
+     left: 745px; 
+     width: 22px;
+    height: 22px;  
+    border-radius: 100%; 
+    animation: my-animation2; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function:  cubic-bezier(0.09, 0.82, 0.3, 0.93);
+
+
+} 
+
+@keyframes my-animation2 {  
+    from { 
+        transform: perspective(0px)   
+        translatez(0px);
+        width: 0px; 
+        height: 0px;
+    }
+
+         
+ to { 
+     transform: perspective(14px) translatez(14px);
+      
+     width: 22px; 
+     height: 22px;
+} 
+}
